@@ -18,6 +18,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "xhdpi"
+    productFlavors {
+        Foo {
+            applicationId "com.myexample.foo"
+            manifestPlaceholders = [appName: "Foo"]
+            dimension "xhdpi"
+        }
+    }
 }
 
 dependencies {

@@ -2,5 +2,5 @@ package com.fanhl.jenkinsdemo
 
 object AppUtils {
 
-    fun gradleText() = "App:"
+    fun gradleText() = "App:" + BuildConfig.FLAVOR
 }
