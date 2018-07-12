@@ -1,3 +1,4 @@
+apply from: "./../util.gradle"
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'

@@ -1,0 +1,14 @@
+import java.text.DateFormat
+import java.text.SimpleDateFormat
+
+/**
+ * 获取当前时间
+ */
+ext {
+    getDateTime = {
+        DateFormat df = new SimpleDateFormat("YYYY_MM_dd_HH_mm_ss")
+
+        df.format(new Date())
+    }
+    gradeText = "\"text2\""
+}
