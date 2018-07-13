@@ -13,7 +13,7 @@ android {
         versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        buildConfigField 'String', 'GRADLE_TEXT', gradeText
+        buildConfigField 'String', 'GRADLE_TEXT', GRADLE_TEXT
     }
     signingConfigs {
         config_release {

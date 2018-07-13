@@ -13,7 +13,7 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        buildConfigField 'String', 'GRADLE_TEXT', gradeText
+        buildConfigField 'String', 'GRADLE_TEXT', GRADLE_TEXT
     }
 
     buildTypes {

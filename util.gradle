@@ -10,6 +10,4 @@ ext {
 
         df.format(new Date())
     }
-//    gradeText = "\"text2\""
-    gradeText = GRADLE_TEXT
 }
