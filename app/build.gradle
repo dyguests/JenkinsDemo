@@ -36,15 +36,19 @@ android {
 
     flavorDimensions "xhdpi"
     productFlavors {
-        text4 {
+        flavors1 {
 //            applicationId "com.myexample.foo"
 //            manifestPlaceholders = [appName: "Foo"]
 //            dimension "xhdpi"
+
+            buildConfigField 'String', 'PRODUCT_FLAVORS', "\"flavors1\""
         }
-        text5 {
+        flavors2 {
 //            applicationId "com.myexample.foo"
 //            manifestPlaceholders = [appName: "Foo"]
 //            dimension "xhdpi"
+
+            buildConfigField 'String', 'PRODUCT_FLAVORS', "\"flavors2\""
         }
     }
 }

@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        tv_text.text = AppUtils.gradleText() + "\n" + LibUtils.gradleText()
+        tv_text.text = AppUtils.gradleText() + "\n" + LibUtils.gradleText()+"\n\n"+AppUtils.productFlavors()
     }
 
 }
