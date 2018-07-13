@@ -35,13 +35,18 @@ android {
     }
 
     flavorDimensions "xhdpi"
-//    productFlavors {
-//        Foo {
+    productFlavors {
+        text4 {
 //            applicationId "com.myexample.foo"
 //            manifestPlaceholders = [appName: "Foo"]
 //            dimension "xhdpi"
-//        }
-//    }
+        }
+        text5 {
+//            applicationId "com.myexample.foo"
+//            manifestPlaceholders = [appName: "Foo"]
+//            dimension "xhdpi"
+        }
+    }
 }
 
 dependencies {
